@@ -1,0 +1,10 @@
+body {
+    font-family: 'PT Mono', monospace;
+    background-color: #111111;
+    color: aliceblue;
+}
+
+main {
+    max-width: 700px;
+    margin: auto;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{{.Title}}</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Mono" rel="stylesheet">
+    <link href="/reset.css" rel="stylesheet">
+    <link href="/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <main aria-role="main">
+        <header class="homepage-header">
+            <h1>{{.Title}}</h1>
+            {{ with .Params.subtitle }}
+            <span class="subtitle">{{.}}</span>
+            {{ end }}
+        </header>
+        <div class="homepage-content">
+            <!-- Note that the content for index.html, as a sort of list page, will pull from content/_index.md -->
+            {{.Content}}
+        </div>
+        <div>
+            <!-- Note that .Data.Pages is the equivalent of .Site.Pages on the homepage template. -->
+            {{ range first 10 .Data.Pages }} {{ .Render "summary"}} {{ end }}
+        </div>
+    </main>
+</body>
+</html>
