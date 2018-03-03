@@ -4,7 +4,7 @@ date: 2018-02-15T06:24:40-08:00
 draft: false
 ---
 
-The Initialized is a project started in 2009 in Lompoc, California. The purpose of the project was to play live, record, have fun, and create a conglomeration of styles that make machines sound alive. The music draws from many influences, but primarily embodies the style of Folktronic Dub.
+The Initialized is a project started in 2009 in Lompoc, California. The purpose of the project was to play live, record, have fun, and create a conglomeration of styles that make machines sound alive. The music draws from many influences, but primarily takes inspiration from dub, electronic, folk, and rock music.
 
 ## Where to Find Us
 
